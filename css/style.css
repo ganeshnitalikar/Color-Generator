@@ -35,17 +35,20 @@
 }
 
 .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border: 1px solid black;
     border-radius: 20px;
     background-color: antiquewhite;
     flex-direction: column;
     text-overflow:clip;
     height: 30vh;
-    max-width: 60vw;
+    min-width: 30vw;
     margin: 30vh 20vw;
+}
+.center{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .colorName{
