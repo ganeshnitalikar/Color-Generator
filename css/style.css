@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,400;1,500&family=Roboto+Slab:wght@500&display=swap');
+
+*{
+    padding:0;
+    list-style: none;
+    list-style: none;
+    margin:0;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto, sans-serif";
+    padding: 10px ;
+    background-color: bisque;
+}
+
+.nav-item{
+    background: rgb(51, 37, 174);
+    padding: 10px;
+    margin: 0 10px ;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.nav-item:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    flex-direction: column;
+    text-overflow:clip;
+    height: 30vh;
+    max-width: 60vw;
+    margin: 30vh 20vw;
+}
+
+.colorName{
+    font-size: 1.4rem;
+    text-align: center;
+    font-family:"Open Sans", sans-serif;
+}
+
+.btn{
+    margin: 20px 0 0 0;
+    padding: 5px;
+    border-radius: 6px;
+    
+    font-family: "Roboto", sans-serif;
+}
+
+.btn:hover{
+    background: black;
+    color: white;
+    transform: scale(1.1);
+    transition: ease-in-out .5s;
+}
